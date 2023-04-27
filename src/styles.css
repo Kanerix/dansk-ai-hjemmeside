@@ -166,7 +166,7 @@
 	max-width: 75rem;
 	margin: 0 auto;
 	opacity: 0;
-	transition: opacity 150ms ease-in;
+	transition: opacity 250ms ease-in;
 
 }
 
