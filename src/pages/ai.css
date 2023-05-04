@@ -1,18 +1,21 @@
-.bund{
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    margin-left: 18%;
-    width: 60%;
-  }
-  
-  .bund a{
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  h2{color: aliceblue;
-    text-align: left;
-  
-  }
+.bund {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	margin-left: 18%;
+	width: 60%;
+}
+
+.bund a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+h2 {
+	text-align: left;
+}
+
+.body {
+	margin-left: 40%
+}
