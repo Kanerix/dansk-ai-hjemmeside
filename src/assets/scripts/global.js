@@ -15,6 +15,7 @@ function getRandomPosition() {
 }
 
 function createBinaryElement() {
+	let root = document.querySelector(".root");
 	let binaryElement = document.createElement("div");
 	binaryElement.classList.add("binary");
 	binaryElement.textContent = generateBinary();
@@ -45,7 +46,7 @@ function typeOutBinary(element, binaryString, index = 0) {
 
 function animateBinary() {
 	let binaryElement = createBinaryElement();
-	document.body.appendChild(binaryElement);
+	document.querySelector('.root').appendChild(binaryElement);
 	let binaryString = generateBinary();
 	setTimeout(() => {
 		binaryElement.style.opacity = 1;
